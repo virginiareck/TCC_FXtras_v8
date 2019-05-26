@@ -1,0 +1,24 @@
+Referências:
+
+Dragabilidade dos nodos: http://jfxtras.org/
+Criador de gradientes em css: https://www.colorzilla.com/gradient-editor/
+Definição de códigos de cores em html: https://htmlcolorcodes.com/
+
+http://jfuzzylogic.sourceforge.net/html/manual.html#optim
+
+
+
+Consistência entre os nodos da rede (modo de criação e preenchimento manual de nodos):
+
+0 - Nodo de hipótese OK:
+    0.1: Botão de "lock" do nodo de hipótese é clickado - OK
+    0.1.1: Botão de criação de evidências é habilitado  - OK
+        1: Botão de criação de evidências é clickado    - OK
+        1.1: botão de "lock" do nodo de hipótese é desabilitado    - OK
+            1.1a: evidências alinhadas com a hipótese são criadas até que seja suficiente            - OK
+                1.1.1a: as evidências são preenchidas corretamente                                   ~  
+                    1.1.1a.1: o programa é executado.                                                ~
+                1.1.1b: Todas evidências são excluídas (adicionar botão para apagar todas as evidências)                ~
+                    1.1.1b.1: botão de criação de evidências é desabilitado                                             ~
+                    1.1.1b.1.1: botão de "lock" do nodo de hipótese é reabilitado, permitindo alterações no nodo        ~
+                    << 0 <<

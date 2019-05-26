@@ -1,0 +1,236 @@
+/* -------------- Estilos definidos para a tela principal ------------- */
+.bg-menu-bar
+{
+    -fx-background-color:   #F7D358;    
+}
+
+.bg-area
+{
+    -fx-background-color:    #f0e9d9;
+}
+
+.btn-toolbar
+{
+    -fx-background-color:  #000000;
+/*    -fx-border-color:  #ffffff; */
+    -fx-text-fill: #ffffff;
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+}
+
+.btn-toolbar:hover
+{
+    -fx-background-color: linear-gradient(to bottom, #7226a8 0%,#6a2294 50%,#4d0074 51%,#7d15a9 100%);
+/*    -fx-border-color:  #ffffff; */
+    -fx-text-fill: #ffffff;
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+}
+
+.toolbar
+{
+    -fx-background-color:  #000000;
+    /*-fx-border-color:  #ffffff;*/
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+}
+
+/* ------------------------------------------------------------------- */
+/* ------------ Estilos definidos para nodos de Hipótese ------------- */
+
+.bg-hyp
+{
+    -fx-background-color: #F7D358;
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0)
+}
+
+.hyp-title-bar
+{        
+    /*-fx-background-color:   #ca9c00  ;*/
+    -fx-background-color:  #000000;
+}
+
+.hyp-title-fonts
+{
+    -fx-text-fill: #ffffff;
+    /*-fx-font-weight: bold;*/
+}
+
+.btn-add-hyp-state 
+{
+    /*
+    -fx-background-color: #4c4c4c;
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));*/
+    
+    -fx-background-color: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);     
+    
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-padding: -2 8 2 8;
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+}
+
+.btn-add-hyp-state:hover    /*Destaca o botão de adição de estado da hipótese quando o mouse passa sobre ele*/
+{
+    -fx-background-color: linear-gradient(to bottom, #7226a8 0%,#6a2294 50%,#4d0074 51%,#7d15a9 100%);  
+    
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-padding: -2 8 2 8;
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+}
+
+.btn-kill-hyp-state
+{
+    -fx-background-color: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;    
+    -fx-padding: -7 5 -3 5;
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+    /*-fx-margin-right: 10% ;*/
+}
+
+.btn-kill-hyp-state:hover /*Destaca o botão de exclusão de estado da hipótese quando o mouse passa sobre ele*/
+{
+    -fx-background-color: linear-gradient(to bottom, #7226a8 0%,#6a2294 50%,#4d0074 51%,#7d15a9 100%);  
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-padding: -7 5 -3 5;
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+    /*-fx-margin: 0 5 0 0 ;*/
+}
+
+.close-button-highlight-on
+{
+    -fx-background-color: #9933ff ;
+}
+
+.close-button-highlight-off
+{
+    -fx-background-color: null ;
+}
+
+.btn-lock-hyp-state 
+{
+    -fx-background-color: linear-gradient(to bottom, #7226a8 0%,#6a2294 50%,#4d0074 51%,#7d15a9 100%);
+/*    -fx-border-color:  #ffffff; */
+    -fx-text-fill: #ffffff;
+/*    -fx-font-weight: bold;*/
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+}
+
+.btn-lock-hyp-state:hover    /*Destaca o botão de adição de estado da hipótese quando o mouse passa sobre ele*/
+{
+    -fx-background-color: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); 
+    
+    /*-fx-background-radius: 30;*/
+    /*-fx-background-insets: 0,1,2,3,0;*/
+    -fx-text-fill: #000000;
+    /*-fx-font-weight: bold;*/
+/*    -fx-padding: -2 8 2 8;*/
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+/* -------- Propriedades para edição dos compnentes "textfield" da tabela ------- */
+
+.textField-node
+{
+    -fx-background-color: null; /*Cor efetiva do bg dos textFields (essa cor simula um fundo transparente)*/
+    -fx-prompt-text-fill: #9933ff; /*Cor do texto "provisório" ~enquanto a texArea ainda não foi preenchida */
+    -fx-alignment: CENTER;
+}
+
+.textField-node .scroll-pane
+{
+    -fx-background-color: transparent; /*Transparencia dos demais aspectos da textArea*/
+}
+
+.textField-node .scroll-pane .viewport
+{
+    -fx-background-color: transparent; /*Transparencia dos demais aspectos da textArea*/
+}
+
+.textField-node .scroll-pane .content
+{
+    -fx-background-color: transparent; /*Transparencia dos demais aspectos da textArea*/
+}
+
+.textField-node:disabled
+{
+    -fx-opacity: 1.0 ;
+    -fx-text-fill: #7226a8 ;
+    -fx-prompt-text-fill:  #ff0000  ;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------ */
+/* -------- Propriedades para edição dos compnentes "textfield" da tabela ------- */
+
+.textField-HypName
+{
+    -fx-background-color: null; /*Cor efetiva do bg dos textFields (essa cor simula um fundo transparente)*/
+    -fx-prompt-text-fill: #9933ff; /*Cor do texto "provisório" ~enquanto a texArea ainda não foi preenchida */
+    -fx-text-fill: #ffffff;
+    -fx-alignment: CENTER;
+}
+
+.textField-HypName .scroll-pane
+{
+    -fx-background-color: transparent; /*Transparencia dos demais aspectos da textArea*/
+}
+
+.textField-HypName .scroll-pane .viewport
+{
+    -fx-background-color: transparent; /*Transparencia dos demais aspectos da textArea*/
+}
+
+.textField-HypName .scroll-pane .content
+{
+    -fx-background-color: transparent; /*Transparencia dos demais aspectos da textArea*/
+}
+
+.textField-HypName:disabled
+{
+    -fx-opacity: 1.0 ;
+    -fx-text-fill: #F7D358 ; 
+    -fx-prompt-text-fill:  #ff0000  ; /*vermelho padrão*/
+}
+
+/* ------------------------------------------------------------------- */
+
+/*.tab
+{
+    -fx-background-color: linear-gradient(to bottom, #7226a8 0%,#6a2294 50%,#4d0074 51%,#7d15a9 100%);
+    -fx-border-color:  #ffffff; 
+    -fx-text-fill: #ffffff;
+    -fx-effect:  dropshadow(three-pass-box, purple, 10, 0, 0, 0) ;
+}*/
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: linear-gradient(to bottom, #7226a8 0%,#6a2294 50%,#4d0074 51%,#7d15a9 100%); 
+}
+
+.tab:selected .tab-label
+{ 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+}
